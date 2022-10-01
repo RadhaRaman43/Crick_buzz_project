@@ -1,33 +1,35 @@
-div{
-    border-color: cadetblue;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin-bottom: 50%;
-    margin-right: 50%;
-    padding-right: auto;
-    padding-bottom: 1%;
+*{
 
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+width: 100%;
+height: 50%;
+
+
+
+}
+.a{
+    width: 100%;
+    height: 50%;
+    display:flex;
     
 }
-.h33{
-    color: red;
-}
-span{
-    color: green;
-    text-underline-position: initial;
-}
-.t1{
-    background-color: black;
-    color: white;
-}
-table{
-    border: none;
-}
-tr{
-    border:none;
+.a>.b{
+    width: 50%;
+    height: 500px;
+    background-image: url('./fl_tower.jpg');
 
+    background-repeat: no-repeat;
+    
 }
-td{
-    border: none;
+.a>.c{
+   display: flex;
+    width: 50%;
+    height: 500px;
+
+    align-items: center;
+    
+    
     
 }
